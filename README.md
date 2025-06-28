@@ -1,20 +1,36 @@
 # Weather App
 
-This is a React.js weather app using OpenWeatherMap API to display current weather by city.
+A simple React weather application built with Vite that fetches current weather data from OpenWeatherMap API.
+
+---
 
 ## Features
-- Search weather by city
-- Shows temperature, humidity, wind speed, and conditions
-- Dynamic background based on weather
 
-## How to run
+- Search weather by city name
+- Displays temperature in Celsius
+- Shows humidity, wind speed, and weather condition
+- Dynamic background based on weather condition
 
-1. Clone the repo
-2. Run `npm install`
-3. Run `npm run dev` to start the development server
-4. Open http://localhost:3000 in your browser
+---
 
-## API Key
+## Demo
 
-You need an OpenWeatherMap API key saved in `.env` file as `REACT_APP_API_KEY=your_api_key`
+Run the app locally at:  
+`http://localhost:5173`
 
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or later recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/iam-gayesh/weather-app.git
+cd weather-app
