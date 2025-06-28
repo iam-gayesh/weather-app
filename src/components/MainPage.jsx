@@ -8,7 +8,7 @@ const MainPage = () => {
   const [searchData, setSearchData] = useState("");
   const [weatherData, setWeatherData] = useState("");
 
-  const apiKey = "976680a37f7c1b5420262c6c3c32c247";
+  const apiKey = import.meta.env.VITE_OPENWEATHER_API_KEY;
 
   useEffect(() => {
     fetchWeatherData("Colombo");
