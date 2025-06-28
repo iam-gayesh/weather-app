@@ -1,12 +1,20 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React.js weather app using OpenWeatherMap API to display current weather by city.
 
-Currently, two official plugins are available:
+## Features
+- Search weather by city
+- Shows temperature, humidity, wind speed, and conditions
+- Dynamic background based on weather
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to run
 
-## Expanding the ESLint configuration
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev` to start the development server
+4. Open http://localhost:3000 in your browser
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## API Key
+
+You need an OpenWeatherMap API key saved in `.env` file as `REACT_APP_API_KEY=your_api_key`
+
